@@ -75,7 +75,7 @@ class Agent(object):
         self.pid = p + i + d
 
         # linearization of the velocity according to the pid
-        v = 5.0 - abs(self.pid) * 4.0/1.22
+        v = 6.0 - abs(self.pid) * 4.0/1.22
         
         # speed and steering angle are published
         drive = AckermannDriveStamped()
